@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.app {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(rgba(80, 69, 69, 0.481), rgba(53, 42, 42, 0.068)),
+    url("../images/3.jpg");
+  /* background: url("../images/3.jpg") */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+header h1 {
+  color: rgb(241, 241, 241);
+  margin: 50px 0px 30px 0px;
+  text-align: center;
+  font-size: 40px;
+}
+
+header p {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.nex {
+  /* border: 1px solid red; */
+  display: flex;
+  height: 100%;
+  margin-top: 30%;
+  left: 10px;
+  justify-content: center;
+  align-content: center;
+  background: transparent;
+  border-radius: 10px;
+}
+
+.img {
+  /* max-height: 90%; */
+  width: 100%;
+
+  background-image: url(../images/x.jfif);
+  background-position: center;
+  background-repeat: none;
+  /* background-size: cover; */
+  border-radius: 5px 20px 5px;
+  margin: 3px;
+}
+.container {
+  display: flex;
+  background: rgba(85, 126, 139, 0.452);
+  width: 90%;
+  margin-bottom: 20px;
+}
+.box {
+  min-height: 10vh;
+  width: 10px;
+  flex: 1;
+  /* border: 2px solid rgb(68, 68, 68); */
+  border-radius: 0.25rem;
+  transition: all 0.4s ease;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.box p {
+  color: red;
+  margin: 20px;
+}
+
+.displayBoxImg {
+  height: 100px;
+  width: 100px;
+  flex: 1;
+  background-image: url(../images/zart.PNG);
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+}
+
+.pad1 {
+  /* background: #60d394; */
+  border: 2px solid #60d394;
+}
+
+.pad2 {
+  border: 2px solid #143d9c;
+}
+
+.pad3 {
+  border: 2px solid #c060d3;
+}
+
+.pad4 {
+  border: 2px solid #d3d160;
+}
+
+.pad5 {
+  border: 2px solid #7895f6be;
+}
+
+.pad6 {
+  border: 2px solid #ffa81c;
+}
+
+.pad7 {
+  border: 2px solid #d21cff;
+}
+
+.pad8 {
+  border: 2px solid #b12714;
+}
+.pad9 {
+  border: 2px solid #00ffd5;
+}
+
+/* Creating the visual display */
+.visual > div {
+  position: absolute;
+  background-image: url(../images/1.png);
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  height: 50px;
+  width: 501px;
+  border-radius: 50%;
+  bottom: 0%;
+  left: 20%;
+  z-index: -1;
+}
+
+.icon {
+  position: absolute;
+  background-image: url(../images/f2.png);
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  height: 50px;
+  width: 501px;
+  border-radius: 50%;
+  bottom: 0%;
+  left: 20%;
+}
+
+@keyframes jump {
+  0% {
+    bottom: 0%;
+    left: 20%;
+    opacity: 1;
+  }
+  50% {
+    bottom: 50%;
+    left: 50%;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+/* styling the balls */
+.visual > div {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  bottom: 0%;
+  z-index: 2;
+}
+
+/* when the music is playing */
+.isOn {
+  transform: scale(1.1);
+  border-color: transparent;
+  box-shadow: 0 0 1rem #000000;
+}
+
+.checkBox {
+  margin-bottom: 20px;
+  /* padding: 101px; */
+}
+
+img .innerImg {
+  /* display: flex; */
+  /* justify-content: center; */
+  /* padding: 30px; */
+  /* max-width: 50px; */
+  /* margin: auto; */
+  /* min-height: 10px; */
+}

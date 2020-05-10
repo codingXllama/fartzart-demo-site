@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FartZart</title>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="./style.css">
+    </head>
+
+    <body>
+        <div class="app">
+            <header>
+                <h1>FartZart</h1>
+                <p>Fart inside Trump's mouth</p>
+                <!-- <h3>Select the tiles to make some lit FARTS</h3> -->
+                <div class="nex">
+                    <div class="img"></div>
+                </div>
+            </header>
+            <!-- here is where we place all the visual bubbles/shapes/etc -->
+            <div class="visual"></div>
+            <!-- <h1>Visual</h1> -->
+            <div class="container">
+
+                <!-- <div class="drums">
+                    <div class="kick">
+                        <input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox">
+                    </div>
+                </div> -->
+                <div class="box pad1">
+                    <!-- <div><img src="../images/f2.png" class="innerImg" height=100%" width="50%" alt=""></div> -->
+                    <audio class="sound" src="../sounds/fart-01.mp3"></audio>
+                    <!-- <p>me</p> -->
+                </div>
+                <div class="box pad2" onclick="nex()">
+                    <div>
+                        <!-- <div><img src="../images/1.png" class="innerImg" alt="" height=100%" width="50%" margin=""> -->
+                    </div>
+                    <audio class="sound" src="../sounds/fart-02.mp3"></audio>
+                    <!-- <audio class="sound" src="../sounds/d1.mp3"></audio> -->
+                </div>
+                <div class="box pad3">
+                    <audio class="sound" src="../sounds/fart-03.mp3"></audio>
+                </div>
+                <div class="box pad4">
+                    <audio class="sound" src="../sounds/fart-05.mp3"></audio>
+                </div>
+                <div class="box pad5">
+                    <audio class="sound" src="../sounds/fart-06.mp3"></audio>
+                </div>
+                <div class="box pad6"><audio class="sound" src="../sounds/fart-squeak-02.mp3"></audio>
+                </div>
+                <div class="box pad7"><audio class="sound" src="../sounds/fart-07.mp3"></audio>
+                </div>
+                <div class="box pad8"><audio class="sound" src="../sounds/fart-08.mp3"></audio>
+                </div>
+                <div class="box pad9"><audio class="sound" src="../sounds/fart-squeak-03.mp3"></audio>
+                </div>
+            </div>
+        </div>
+        <script src="app.js"></script>
+        <!-- tone js api -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.6.13/Tone.js"></script>
+        <script src="seq.js"></script>
+    </body>
+
+</html>
